@@ -36,7 +36,7 @@ play_button.click()
 
 human_timeout = 60
 
-for i in range(1):
+for i in range(10):
     print("Song Playing...")
     time.sleep(human_timeout)
     play_button.click()
